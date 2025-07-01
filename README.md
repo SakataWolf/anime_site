@@ -2,7 +2,7 @@
 
 Um site visual totalmente estilizado, voltado ao público otaku e fã de animes, feito com **HTML**, **CSS** e **JavaScript**. Este projeto é focado no design e experiência visual, inspirado em plataformas de streaming de animes, oferecendo uma interface rica em detalhes e elementos temáticos.
 
-![Preview do Site](./preview/home.png)
+![Preview do Site](./Preview/home.png)
 
 ## 🔥 Destaques do Projeto
 
