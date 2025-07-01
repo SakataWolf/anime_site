@@ -1,0 +1,415 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Filtro</title>
+
+    <!-- swiper css cdn link -->
+     <link rel="stylesheet"href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
+
+    <!-- css link -->
+     <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <!-- inicio do header -->
+     <header class="header">
+
+        <section class="flex">
+
+            <div class="logo">
+                <div id="menu-btn" class="fas fa-bars-staggered"></div>
+                <a href="home.html">OTAKU</a>
+            </div>
+
+            <div class="search-form">
+                <form action="" class="search-bar">
+                    <input type="search" placeholder=" Procure seu anime..." id="searchBox">
+                    <label for="searchBox" class="fas fa-search"></label>
+                </form>
+                <a href="filter.html" class="fas fa-filter"></a>
+            </div>
+
+            <a href="login.html" class="btn"><i class="fas fa-user"></i>login</a>
+
+            <div id="search-toggler" class="fas fa-search"></div>
+
+        </section>
+
+     </header>
+    <!-- final do header -->
+
+<div class="side-bar">
+
+    <nav class="navbar">
+
+        <div id="close-btn"><i class="fas fa-angle-left"></i>fechar menu</div>
+
+        <a href="home.html">home</a>
+        <a href="#">populares</a>
+        <a href="#">filmes</a>
+        <a href="#">legendado</a>
+        <a href="#">dublado</a>
+        <a href="#">OVAs</a>
+        <a href="#">ONAs</a>
+        <a href="#">especiais</a>
+
+        <div class="title">genero</div>
+
+            <div class="row">
+                <a href="#">ação</a>
+                <a href="#">aventura</a>
+                <a href="#">carros</a>
+                <a href="#">comedia</a>
+                <a href="#">crime</a>
+                <a href="#">comic</a>
+                <a href="#">demonios</a>
+                <a href="#">drama</a>
+                <a href="#">familia</a>
+                <a href="#">fantasia</a>
+                <a href="#">gore</a>
+                <a href="#">harem</a>
+                <a href="#">historico</a>
+                <a href="#">josei</a>
+                <a href="#">jogos</a>
+                <a href="#">magia</a>
+                <a href="#">mecha</a>
+                <a href="#">militar</a>
+                <a href="#">mistério</a>
+                <a href="#">musical</a>
+                <a href="#">parodia</a>
+                <a href="#">policial</a>
+                <a href="#">psicologico</a>
+                <a href="#">romance</a>
+                <a href="#">samurai</a>
+                <a href="#">sci-fi</a>
+                <a href="#">seinen</a>
+                <a href="#">shoujo</a>
+                <a href="#">shounen</a>
+                <a href="#">slice of life</a>
+                <a href="#">esporte</a>
+                <a href="#">suspense</a>
+                <a href="#">sobrenatural</a>
+                <a href="#">terror</a>
+                <a href="#">vampiros</a>
+                <a href="#">yaoi</a>
+                <a href="#">yuri</a>
+                <a href="#">hentai</a>
+                <a href="#">animes adultos</a>
+
+            </div>
+
+    </nav>
+
+</div>
+
+<!-- sessão filtro começo -->
+
+<section class="filter">
+
+    <h1 class="heading">filtro</h1>
+
+    <form action="">
+
+    <div class="list-container">
+
+        <div class="list">
+            <span>tipo</span>
+            <input type="text" readonly value="Todos" class="output">
+            <div class="items">
+                <div class="item">todos</div>
+                <div class="item">filme</div>
+                <div class="item">TV</div>
+                <div class="item">OVAs</div>
+                <div class="item">ONAs</div>
+                <div class="item">especiais</div>
+                <div class="item">musica</div>
+            </div>
+        </div>
+
+        <div class="list">
+            <span>status</span>
+            <input type="text" readonly value="Todos" class="output">
+            <div class="items">
+                <div class="item">todos</div>
+                <div class="item">em andamento</div>
+                <div class="item">concluidos</div>
+                <div class="item">por vir</div>
+            </div>
+        </div>
+
+        <div class="list">
+            <span>leg</span>
+            <input type="text" readonly value="Todos" class="output">
+            <div class="items">
+                <div class="item">todos</div>
+                <div class="item">LEG</div>
+                <div class="item">DUB</div>
+                <div class="item">NAT</div>
+            </div>
+        </div>
+
+        <div class="list">
+            <span>temporada</span>
+            <input type="text" readonly value="Todos" class="output">
+            <div class="items">
+                <div class="item">todos</div>
+                <div class="item">primavera</div>
+                <div class="item">verão</div>
+                <div class="item">outono</div>
+                <div class="item">inverno</div>
+            </div>
+        </div>
+
+    </div>
+
+    <div class="genere">
+        <input type="checkbox" id="c1">
+        <label for="c1">ação</label>
+        <input type="checkbox" id="c2">
+        <label for="c2">aventura</label>
+        <input type="checkbox" id="c3">
+        <label for="c3">carros</label>
+        <input type="checkbox" id="c4">
+        <label for="c4">comédia</label>
+        <input type="checkbox" id="c5">
+        <label for="c5">crime</label>
+        <input type="checkbox" id="c6">
+        <label for="c6">comic</label>
+        <input type="checkbox" id="c7">
+        <label for="c7">demônios</label>
+        <input type="checkbox" id="c8">
+        <label for="c8">drama</label>
+        <input type="checkbox" id="c9">
+        <label for="c9">família</label>
+        <input type="checkbox" id="c10">
+        <label for="c10">fantasia</label>
+        <input type="checkbox" id="c11">
+        <label for="c11">gore</label>
+        <input type="checkbox" id="c12">
+        <label for="c12">harem</label>
+        <input type="checkbox" id="c13">
+        <label for="c13">histórico</label>
+        <input type="checkbox" id="c14">
+        <label for="c14">josei</label>
+        <input type="checkbox" id="c15">
+        <label for="c15">jogos</label>
+        <input type="checkbox" id="c16">
+        <label for="c16">magia</label>
+        <input type="checkbox" id="c17">
+        <label for="c17">mecha</label>
+        <input type="checkbox" id="c18">
+        <label for="c18">militar</label>
+        <input type="checkbox" id="c19">
+        <label for="c19">mistério</label>
+        <input type="checkbox" id="c20">
+        <label for="c20">musical</label>
+        <input type="checkbox" id="c21">
+        <label for="c21">parodia</label>
+        <input type="checkbox" id="c22">
+        <label for="c22">policial</label>
+        <input type="checkbox" id="c23">
+        <label for="c23">psicológico</label>
+        <input type="checkbox" id="c24">
+        <label for="c24">romance</label>
+        <input type="checkbox" id="c25">
+        <label for="c25">samurai</label>
+        <input type="checkbox" id="c26">
+        <label for="c26">sci-fi</label>
+        <input type="checkbox" id="c27">
+        <label for="c27">seinen</label>
+        <input type="checkbox" id="c28">
+        <label for="c28">shoujo</label>
+        <input type="checkbox" id="c29">
+        <label for="c29">shounen</label>
+        <input type="checkbox" id="c30">
+        <label for="c30">slice of life</label>
+        <input type="checkbox" id="c31">
+        <label for="c31">esporte</label>
+        <input type="checkbox" id="c32">
+        <label for="c32">suspense</label>
+        <input type="checkbox" id="c33">
+        <label for="c33">sobrenatural</label>
+        <input type="checkbox" id="c34">
+        <label for="c34">terror</label>
+        <input type="checkbox" id="c35">
+        <label for="c35">vampiros</label>
+        <input type="checkbox" id="c36">
+        <label for="c36">animimes adultos</label>
+    </div>
+
+    <input type="submit" value="filter anime" class="btn">
+
+    </form>
+
+</section>
+
+<!-- sessão filtro final -->
+
+
+<!-- sessão em alta começo -->
+
+    <section class="trending">
+        
+        <h1 class="heading">mais populares</h1>
+
+        <div class="trending-slider posts-container">
+
+            <div class="swiper-wrapper">
+
+                <div class="swiper-slide post">
+                    <div class="image">
+                        <img src="images/img-1.jpg" alt="">
+                        <p class="type">TV</p>
+                        <p class="caption">LEG</p>
+                    </div>
+                    <h3><a href="#">solo leveling</a></h3>
+                </div>
+                <div class="swiper-slide post">
+                    <div class="image">
+                        <img src="images/img-2.jpg" alt="">
+                        <p class="type">TV</p>
+                        <p class="caption">LEG</p>
+                    </div>
+                    <h3><a href="#">the dangers in my heart</a></h3>
+                </div>
+                <div class="swiper-slide post">
+                    <div class="image">
+                        <img src="images/img-3.jpg" alt="">
+                        <p class="type">TV</p>
+                        <p class="caption">LEG</p>
+                    </div>
+                    <h3><a href="#">chainsaw man</a></h3>
+                </div>
+                <div class="swiper-slide post">
+                    <div class="image">
+                        <img src="images/img-4.jpg" alt="">
+                        <p class="type">TV</p>
+                        <p class="caption">DUB/LEG</p>
+                    </div>
+                    <h3><a href="#">One Piece</a></h3>
+                </div>
+                <div class="swiper-slide post">
+                    <div class="image">
+                        <img src="images/img-5.jpg" alt="">
+                        <p class="type">TV</p>
+                        <p class="caption">DUB/LEG</p>
+                    </div>
+                    <h3><a href="#">Bleach</a></h3>
+                </div>
+                <div class="swiper-slide post">
+                    <div class="image">
+                        <img src="images/img-6.jpg" alt="">
+                        <p class="type">TV</p>
+                        <p class="caption">DUB/LEG</p>
+                    </div>
+                    <h3><a href="#">Naruto</a></h3>
+                </div>
+
+            </div>
+        </div>
+
+    </section>
+
+<!-- sessão em alta começo -->
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- inicio do footer -->
+
+<footer class="footer">
+
+    <section>
+
+        <div class="list">
+            <h3>A - Z lista</h3>
+            <p>Ordem de busca alfabética de A - Z</p>
+            <div class="list-links">
+                <a href="#">#</a>
+                <a href="#">0-9</a>
+                <a href="#">a</a>
+                <a href="#">b</a>
+                <a href="#">c</a>
+                <a href="#">d</a>
+                <a href="#">e</a>
+                <a href="#">f</a>
+                <a href="#">g</a>
+                <a href="#">h</a>
+                <a href="#">i</a>
+                <a href="#">j</a>
+                <a href="#">k</a>
+                <a href="#">l</a>
+                <a href="#">m</a>
+                <a href="#">n</a>
+                <a href="#">o</a>
+                <a href="#">p</a>
+                <a href="#">q</a>
+                <a href="#">r</a>
+                <a href="#">s</a>
+                <a href="#">t</a>
+                <a href="#">u</a>
+                <a href="#">v</a>
+                <a href="#">w</a>
+                <a href="#">x</a>
+                <a href="#">y</a>
+                <a href="#">z</a>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="extra-links">
+                <a href="#">termos de uso</a>
+                <a href="#">nossas politicas</a>
+                <a href="#">feedback</a>
+                <a href="#">fale conosco</a>
+            </div>
+            <div class="share">
+                <a href="#" class="fab fa-youtube"></a>
+                <a href="#" class="fab fa-whatsapp"></a>
+                <a href="#" class="fab fa-linkedin"></a>
+                <a href="#" class="fab fa-instagram"></a>
+            </div>
+        </div>
+
+        <div class="credit">direitos autorais &copy; 2025 cirado por <span>sakatawolf</span> | todos os direitos reservados</div>
+
+    </section>
+
+</footer>
+
+ <!-- final do footer -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- swiper js cdn link -->
+<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+<!-- js arquivo personalizado -->
+<script src="js/script.js"></script>
+
+</body>
+</html>
