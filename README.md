@@ -32,17 +32,17 @@ Um site visual totalmente estilizado, voltado ao público otaku e fã de animes,
 ## 🖼️ Imagens do Projeto
 
 ### 🎬 Página Inicial com Destaques  
-![Página Principal](./preview/menu.png)
+![Página Principal](./Preview/menu.png)
 
 ### 🎭 Filtros e Gêneros  
-![Filtro de Gêneros](./preview/filter.png)
+![Filtro de Gêneros](./Preview/filter.png)
 
 ### 📱 Versão Mobile  
-![Versão Mobile](./preview/mobile_home.png)
+![Versão Mobile](./Preview/mobile_home.png)
 
 ### 🔐 Telas de Login e Registro  
-![Login](./preview/login.png)  
-![Cadastro](./preview/register.png)
+![Login](./Preview/login.png)  
+![Cadastro](./Preview/register.png)
 
 ---
 
